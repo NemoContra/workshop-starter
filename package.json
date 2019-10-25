@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --project flight-app -o",
+    "rxjs-demo": "ng serve --project rxjs-demo -o",
     "build": "ng build",
     "build:lib": "ng build --project logger-lib",
     "test": "ng test",

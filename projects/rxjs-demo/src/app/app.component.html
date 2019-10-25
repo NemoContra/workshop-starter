@@ -1,0 +1,8 @@
+<form (submit)="submit$$.next()" [formGroup]="formGroup">
+  <input type="text" formControlName="from" placeholder="from">
+  <br>
+  <input type="text" formControlName="to" placeholder="to">
+  <br>
+  <button type="submit">Search</button>
+</form>
+<pre *ngIf="flights$ | async as flights">{{ flights | json }}</pre>
